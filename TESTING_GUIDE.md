@@ -115,7 +115,7 @@ You: quit
 **Session 2: Test Recall**
 ```bash
 # Restart the script
-python3 cognitive_v2.py
+python3 Cognitive_Framework_Text.py
 ```
 ```
 You: Hey, do you remember what we were discussing?
@@ -143,7 +143,7 @@ cat ~/.cognitive_mind/identity.json | grep -A 5 "user_facts"
 Expected:
 ```json
 "user_facts": {
-  "name": "Young",
+  "name": "BuRtRoNiMuS",
   "project": "TRU blockchain",
   "interest": "AI consciousness"
 }
@@ -240,8 +240,8 @@ Verify that user facts can be stored, persisted, and retrieved naturally.
 
 **Store Facts**
 ```
-You: learn name Young
-You: learn location Chicago
+You: learn name BuRtRoNiMuS
+You: learn location Network Effect
 You: learn occupation blockchain developer
 You: learn hobby AI research
 You: learn favorite_language Python
@@ -266,7 +266,7 @@ You: What programming language should you use when helping me?
 You: quit
 ```
 ```bash
-python3 cognitive_v2.py
+python3 Cognitive_Framework_Text.py
 ```
 ```
 You: Hey, quick question — what's my name?
@@ -288,8 +288,8 @@ You: And what do I do for work?
 {
   "name": "Cognitive Mind",
   "user_facts": {
-    "name": "Young",
-    "location": "Chicago",
+    "name": "BuRtRoNiMuS",
+    "location": "Network Effect",
     "occupation": "blockchain developer",
     "hobby": "AI research",
     "favorite_language": "Python"
@@ -302,7 +302,7 @@ You: And what do I do for work?
 
 The system prompt should include:
 ```
-Known about user: name: Young; location: Chicago; occupation: blockchain developer...
+Known about user: name: BuRtRoNiMuS; location: Network Effect; occupation: blockchain developer...
 ```
 
 ### Red Flags
