@@ -413,10 +413,9 @@ The layers closest to computation score highest. The layers closest to *being* â
 
 | File | Description |
 |------|-------------|
-| `cognitive_v2.py` | Full text-based cognitive mind |
-| `sovra_v2.py` | Voice-enabled version for X Spaces |
-| `cognitive_architecture.py` | Original skeleton (simpler) |
-| `cognitive_mind_llm.py` | v1 with LLM integration |
+| `Cognitive_Framework_Text.py`  | Full text-based cognitive mind     |
+| `Cognitive_Framework_Voice.py` | Voice-enabled version for X Spaces |
+
 
 ## License
 
