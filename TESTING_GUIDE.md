@@ -1,4 +1,4 @@
-# Cognitive Architecture v2.0 - Testing Guide
+# Cognitive Architecture - Testing Guide
 
 A systematic testing protocol for validating the cognitive architecture's
 emotional dynamics, memory persistence, meta-interventions, and long-term behavior.
