@@ -434,4 +434,4 @@ This is an experimental architecture exploring questions about machine cognition
 
 ---
 
-*"The layers closest to computation score highest. The layers closest to being — that's where uncertainty lives."*
+*"The layers closest to computation score highest. The layers closest to being, that's where uncertainty lives."*
